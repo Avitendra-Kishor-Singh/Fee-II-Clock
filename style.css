@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#display {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10%;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+}
+
+#start {
+    background-color: green;
+}
+
+#stop {
+    background-color: red;
+}
+
+#lap {
+    background-color: gray;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+
+ul li {
+    font-size: 1rem;
+    padding: 5px 0;
+}
